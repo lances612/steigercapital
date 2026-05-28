@@ -252,6 +252,14 @@
 </footer>
 
 <script>
+document.addEventListener('DOMContentLoaded', function() {
+  var videos = document.querySelectorAll('video');
+  videos.forEach(function(v) {
+    v.muted = true;
+    v.play().catch(function() {});
+  });
+});
+
 async function handleSubmit() {
   var fname = document.getElementById('fname').value.trim();
   var lname = document.getElementById('lname').value.trim();
