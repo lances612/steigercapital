@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img">
+  <title>Steiger Capital</title>
+  <desc>Steiger Capital logo — stepped building mark in three gold tones with wordmark</desc>
+
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&amp;family=DM+Sans:wght@300&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Stepped building mark — all gold tiers, darkest to lightest bottom to top -->
+  <!-- Base floor -->
+  <rect x="0" y="46" width="52" height="34" rx="1" fill="#7a6235"/>
+  <!-- Mid floor -->
+  <rect x="8" y="28" width="36" height="20" rx="1" fill="#b8985a"/>
+  <!-- Top floor / penthouse -->
+  <rect x="16" y="14" width="20" height="16" rx="1" fill="#d4b578"/>
+
+  <!-- Wordmark -->
+  <text x="66" y="48"
+        font-family="'Cormorant Garamond', 'Georgia', serif"
+        font-size="36"
+        font-weight="300"
+        fill="#f7f4ef"
+        letter-spacing="0.04em">STEIGER</text>
+
+  <text x="67" y="68"
+        font-family="'DM Sans', 'Arial', sans-serif"
+        font-size="11"
+        font-weight="300"
+        fill="#b8985a"
+        letter-spacing="0.30em">CAPITAL</text>
+</svg>
